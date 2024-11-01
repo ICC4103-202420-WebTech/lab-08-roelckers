@@ -1,24 +1,19 @@
-# README
+## Requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Use Devise for authentication.
 
-Things you may want to cover:
+- Build the User Interface using Bootstrap
 
-* Ruby version
+- Users have to have a view in order to view all their historical training sessions.
 
-* System dependencies
+- Users should be able to create training sessions.
 
-* Configuration
+- A training session at least has to have:
 
-* Database creation
+  - Date
 
-* Database initialization
+  - Activity (String indicating the activity done)
 
-* How to run the test suite
+  - Duration (in minutes)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - Description
